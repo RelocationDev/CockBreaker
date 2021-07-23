@@ -7,7 +7,7 @@ public final class GiantPenis extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("penis").setExecutor(new PenisCommand());
+        getCommand("penis").setExecutor(new PenisCommand(this));
     }
 
     @Override

@@ -70,5 +70,19 @@
             <version>1.17.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>me.relo</groupId>
+            <artifactId>FAWE</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/FastAsyncWorldEdit-bukkit.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>me.relo</groupId>
+            <artifactId>WE</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/worldedit-6.1.jar</systemPath>
+        </dependency>
     </dependencies>
 </project>
