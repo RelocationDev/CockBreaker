@@ -1,0 +1,7 @@
+name: CockBreaker
+version: ${project.version}
+main: me.relocation.giantpenis.GiantPenis
+api-version: 1.17
+authors: [Relocation]
+commands:
+    penis:
